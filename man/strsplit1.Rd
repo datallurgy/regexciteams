@@ -18,6 +18,6 @@ A character vector.
 Title
 }
 \examples{
-#' x <- "alfa,bravo,charlie,delta"
+x <- "alfa,bravo,charlie,delta"
 strsplit(x, split = ",")
 }
