@@ -7,7 +7,7 @@
 #' @export
 #'
 #' @examples
-#' #' x <- "alfa,bravo,charlie,delta"
+#' x <- "alfa,bravo,charlie,delta"
 #' strsplit(x, split = ",")
 strsplit1 <- function(x, split) {
   strsplit(x, split = split)[[1]]
